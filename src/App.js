@@ -16,9 +16,9 @@ const [count, setCount] = useState(0)
   return (
     <div className="App">
       <div>
-        <h2>Счетчик:</h2>
+        <h2>Лічильник:</h2>
         <h1>{count}</h1>
-        <button className="minus" onClick={countMinus}>- Минус</button>
+        <button className="minus" onClick={countMinus}>- Мінус</button>
         <button className="plus" onClick={countPluse}>Плюс +</button>
       </div>
     </div>
